@@ -50,6 +50,7 @@ function first() {
 }
 
 
+
 // Example to show the differece between execution stack and scope chain
 var a = 'Hello!';
 first();
@@ -69,7 +70,7 @@ function third() {
     //console.log(c);
     console.log(a+d);
 }
-*/
+
 
 
 
@@ -78,13 +79,13 @@ function third() {
 
 /*
 //console.log(this);
-
-calculateAge(1985);
-
-function calculateAge(year) {
-    console.log(2016 - year);
-    console.log(this);
-}
+*/
+//calculateAge(1985);
+//
+//function calculateAge(year) {
+//    console.log(2016 - year);
+//    console.log(this);
+//}
 
 var john = {
     name: 'John',
@@ -108,6 +109,6 @@ var mike = {
 };
 
 
-mike.calculateAge = john.calculateAge;
-mike.calculateAge();
-*/
+//mike.calculateAge = john.calculateAge;
+//mike.calculateAge();
+

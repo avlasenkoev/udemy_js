@@ -1,7 +1,7 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
-
+console.log(this)
 
 
 
